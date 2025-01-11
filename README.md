@@ -1,0 +1,2 @@
+# PHP Pass-by-Reference Subtleties
+This example demonstrates a common pitfall in PHP related to pass-by-reference.  When a function modifies a variable passed by reference, it directly affects the original variable.  However, creating a copy of an array and passing that copy does not modify the original array. This is subtle and can cause unexpected behavior.  The solution highlights how to ensure modifications affect original variables when needed.
